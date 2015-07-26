@@ -25,7 +25,7 @@ public class App {
         props.put("schema.registry.url", "http://localhost:8081");
         KafkaProducer producer = new KafkaProducer(props);
 
-        String key = "key2";
+        String key = "key1";
         String userSchema = "{\"type\":\"record\"," +
                 "\"name\":\"myrecord\"," +
                 "\"fields\":[{\"name\":\"f1\",\"type\":\"string\"}]}";
